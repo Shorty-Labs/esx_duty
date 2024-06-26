@@ -128,7 +128,7 @@ local isDutyStatus = Slabs-Duty.exportDutyStatus(playerId)
 print("Player is " .. (isDutyStatus and "on duty" or "off duty"))
 ```
 
-#Commands
+# Commands
 
 The Slabs-Duty resource provides the following commands:
 
