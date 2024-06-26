@@ -143,9 +143,9 @@ The Slabs-Duty resource provides the following commands:
 
 ### `/jobcount [jobName]`
 * Description: Shows how many players are online for a specific job or all configured jobs.
-* 
+ 
 * Parameters:
-* - jobName (optional): The name of the job to get the count for. If not provided, it will show the count for all jobs.
+  - jobName (optional): The name of the job to get the count for. If not provided, it will show the count for all jobs.
  
 * Permissions: All players can use this command.
 
@@ -160,6 +160,7 @@ The Slabs-Duty resource provides the following commands:
 
 ### `/resetweeklytimes [jobName] [targetName]`
 * Description: Reset weekly times for a specific job and optionally for a target player.
+  
 * Parameters:
   - jobName: The name of the job to reset weekly times for.
   - targetName (optional): The name of the target player to reset weekly times for. If not provided, it will reset weekly times for all players in the job.
@@ -168,21 +169,24 @@ The Slabs-Duty resource provides the following commands:
 
 ### `/checkdailytimes [date]`
 * Description: Check daily times for a specific date.
+  
 * Parameters:
-  - date: The date in the format YYYY-MM-DD.
+  - date: The date in the format DD/MM/YY.
     
 * Permissions: Admins and job supervisors (boss) can check daily times for any job, while regular players can only check their own daily times.
 
 ### `/checkweeklytimes [jobName] [weekCommencing]`
 * Description: Check weekly times for a specific job and week commencing date.
+  
 * Parameters:
   - jobName: The name of the job to check weekly times for.
-  - weekCommencing: The start date of the week in the format YYYY-MM-DD.
+  - weekCommencing: The start date of the week in the format DD/MM/YY.
     
 * Permissions: Admins and job supervisors (boss) can use this command.
 
 ### `/checkdutystatus [playerId]`
 * Description: Check the duty status (on-duty or off-duty) of a player.
+  
 * Parameters:
   -playerId (optional): The server ID of the player to check the duty status for. If not provided, it will check the duty status of the player executing the command.
   
