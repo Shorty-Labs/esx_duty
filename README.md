@@ -153,8 +153,8 @@ The Slabs-Duty resource provides the following commands:
 * Description: Reset daily times for a specific job and optionally for a target player.
   
 * Parameters:
- - jobName: The name of the job to reset daily times for.
- - targetName (optional): The name of the target player to reset daily times for. If not provided, it will reset daily times for all players in the job.
+  - jobName: The name of the job to reset daily times for.
+  - targetName (optional): The name of the target player to reset daily times for. If not provided, it will reset daily times for all players in the job.
 
 * Permissions: Admins and job supervisors (boss) can use this command.
 
