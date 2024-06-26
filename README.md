@@ -4,18 +4,18 @@ Slabs-Duty is an ESX Duty System resource for FiveM servers. It provides a compr
 
 ## Description
 
-This resource allows players to clock in and out of duty for their respective jobs. It keeps track of their session times, daily times, and weekly times, storing the data in a JSON file. Additionally, it offers various commands for administrators and job supervisors to manage and view duty times, as well as log events to Discord webhooks.
+This resource allows players to clock in and out of duty for their respective jobs. It keeps track of their session times, daily times, and weekly times, storing the data in a JSON file. Additionally, it offers various commands for `admin` and `boss` to manage and view duty times, as well as log events to Discord webhooks.
 
 ## Installation
 
 1. Download the latest version of the resource from the [Slabs-Duty repository](https://github.com/your-repo/slabs-duty).
 2. Extract the contents of the ZIP file into your FiveM server's `resources` directory.
 3. Add `start slabs-duty` to your server's `server.cfg` file.
-4. Configure the resource settings in the `config.lua` file, including job configurations, duty command settings, and Discord webhook URLs.
+4. Configure the resource settings in the `config.lua` and `discordConfig` files, including job configurations, duty command settings, and Discord webhook URLs, (Examples are provided).
 
 ## Dependencies
 
-- [es_extended](https://github.com/ESX-Org/es_extended)
+- [es_extended](https://documentation.esx-framework.org/legacy/installation/)
 - [ox_lib](https://github.com/overextended/ox_lib)
 - [ox_target](https://github.com/overextended/ox_target)
 
@@ -213,3 +213,5 @@ The Slabs-Duty resource supports localization through the locales directory. The
 
 # Contributing
 Contributions to the Slabs-Duty resource are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request on the GitHub repository.
+
+
