@@ -8,10 +8,10 @@ DiscordConfig = {
     
     -- Webhooks for weekly logs by job type
     WeekLogHooks = {
-        police = "https://discord.com/api/webhooks/1252620221143978044/vfOTMWtWroFxJmsov_SmnibGb_SF6ToUr7mxl_uBkpD5k4e6vUnQh5d63F_Z4BYLcCoK",
+        police = "ADD YOUR DISCORD WEBHOOK HERE",
         ambulance = "ADD YOUR DISCORD WEBHOOK HERE",
         mechanic = "ADD YOUR DISCORD WEBHOOK HERE",
-    
+        -- Remember to add Hooks for any jobs you add in Config.Jobs
     },
 
     -- Random colors for discord Embeds, add or remove as you wish.
