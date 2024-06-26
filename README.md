@@ -135,8 +135,8 @@ The Slabs-Duty resource provides the following commands:
 ### `/logJobTimes [jobName] [weekStartDate]`
 * Description: Sends a log to Discord with all players' daily and weekly duty times for the specified job and week commencing date.
 * Parameters:
-- jobName: The name of the job to log times for.
-- weekStartDate: The start date of the week in the format DD/MM/YY.
+* - jobName: The name of the job to log times for.
+* - weekStartDate: The start date of the week in the format DD/MM/YY.
 * Permissions: Admins and job supervisors (boss) can use this command.
 
 ### `/jobcount [jobName]`
