@@ -1,5 +1,5 @@
 # Slabs-Duty
--- My other Scripts [Shorty-Labs-Store]([https://documentation.esx-framework.org/legacy/installation/](https://shorty-labs.tebex.io/]))
+-- My other Scripts [Shorty-Labs-Store]([https://documentation.esx-framework.org/legacy/installation/](https://shorty-labs.tebex.io/])
 
 Slabs-Duty is an ESX Duty System resource for FiveM servers. It provides a comprehensive solution for managing player duty times, tracking daily and weekly hours, and logging duty-related events to Discord.
 
