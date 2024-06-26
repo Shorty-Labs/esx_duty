@@ -70,24 +70,6 @@ for job, count in pairs(jobCounts) do
 end
 ```
 
-### `exportPlayerTimes(playerName)`
-
-This export function retrieves the duty times for a specific player or all online players.
-
-**Example Usage:**
-
-```lua
--- Get the count for a specific job
-local policeCount = Slabs-Duty.exportJobsCount("police")
-print("Player count for police job:", policeCount)
-
--- Get the count for all jobs
-local jobCounts = Slabs-Duty.exportJobsCount()
-for job, count in pairs(jobCounts) do
-    print("Player count for job '" .. job .. "': " .. count)
-end
-```
-
 ### `resetDailyTimesForJob(targetIdentifier, jobName)`
 
 This export function resets the daily times for a specific job for all players or a specific player.
