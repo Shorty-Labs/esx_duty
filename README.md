@@ -86,7 +86,7 @@ for job, count in pairs(jobCounts) do
 end
 ```
 
-### resetDailyTimesForJob(targetIdentifier, jobName)
+### `resetDailyTimesForJob(targetIdentifier, jobName)`
 
 This export function resets the daily times for a specific job for all players or a specific player.
 
@@ -101,7 +101,7 @@ local targetIdentifier = "char1:1fb3c3519c199949245beeedbebabce30ddbb707"
 Slabs-Duty.resetDailyTimesForJob(targetIdentifier, "police")
 ```
 
-### resetWeeklyTimesForJob(targetIdentifier, jobName)
+### `resetWeeklyTimesForJob(targetIdentifier, jobName)`
 
 This export function resets the weekly times for a specific job for all players or a specific player.
 
@@ -116,7 +116,7 @@ local targetIdentifier = "char1:1fb3c3519c199949245beeedbebabce30ddbb77"
 Slabs-Duty.resetWeeklyTimesForJob(targetIdentifier, "ambulance")
 ```
 
-### exportDutyStatus(playerId)
+### `exportDutyStatus(playerId)`
 
 This export function retrieves the duty status for a specific player.
 
@@ -132,34 +132,34 @@ Commands
 
 The Slabs-Duty resource provides the following commands:
 
-## /logJobTimes [jobName] [weekStartDate]
+## `/logJobTimes [jobName] [weekStartDate]`
 * Description: Sends a log to Discord with all players' daily and weekly duty times for the specified job and week commencing date.
 * Parameters:
 - jobName: The name of the job to log times for.
 - weekStartDate: The start date of the week in the format DD/MM/YY.
 * Permissions: Admins and job supervisors (boss) can use this command.
 
-## /jobcount [jobName]
+## `/jobcount [jobName]`
 * Description: Shows how many players are online for a specific job or all configured jobs.
 * Parameters:
 - jobName (optional): The name of the job to get the count for. If not provided, it will show the count for all jobs.
 * Permissions: All players can use this command.
 
-## /resetdailytimes [jobName] [targetName]
+## `/resetdailytimes [jobName] [targetName]`
 * Description: Reset daily times for a specific job and optionally for a target player.
 * Parameters:
 - jobName: The name of the job to reset daily times for.
 - targetName (optional): The name of the target player to reset daily times for. If not provided, it will reset daily times for all players in the job.
 * Permissions: Admins and job supervisors (boss) can use this command.
 
-## /resetweeklytimes [jobName] [targetName]
+## `/resetweeklytimes [jobName] [targetName]`
 * Description: Reset weekly times for a specific job and optionally for a target player.
 * Parameters:
 - jobName: The name of the job to reset weekly times for.
 - targetName (optional): The name of the target player to reset weekly times for. If not provided, it will reset weekly times for all players in the job.
 * Permissions: Admins and job supervisors (boss) can use this command.
 
-## /checkdailytimes [date]
+## `/checkdailytimes [date]`
 * Description: Check daily times for a specific date.
 * Parameters:
 - date: The date in the format YYYY-MM-DD.
@@ -172,13 +172,13 @@ The Slabs-Duty resource provides the following commands:
 - weekCommencing: The start date of the week in the format YYYY-MM-DD.
 * Permissions: Admins and job supervisors (boss) can use this command.
 
-## /checkdutystatus [playerId]
+## `/checkdutystatus [playerId]`
 * Description: Check the duty status (on-duty or off-duty) of a player.
 * Parameters:
 - playerId (optional): The server ID of the player to check the duty status for. If not provided, it will check the duty status of the player executing the command.
 * Permissions: Admins can use this command to check the duty status of any player.
 
-## /duty
+## `/duty`
 * Description: Toggle the player's duty status (clock in or clock out).
 * Permissions: Players with a valid job can use this command. Admins can use this command for any job.
 
