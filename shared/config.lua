@@ -1,21 +1,14 @@
--- Constants
-local INTERACT_DISTANCE = 2 --The distance at which players can interact with duty locations.
-local RADIUS = 0.5 -- The radius of the duty location zones.
-local DEFAULT_LOCALE = "en" -- The default locale for translations.
-local DEFAULT_ICON = 'fa-solid fa-business-time' --https://fontawesome.com/ - The default icon to use for duty menu items.
-
--- Configuration
 Config = {
-    InteractDistance = INTERACT_DISTANCE, 
-    Radius = RADIUS, 
-    Locale = DEFAULT_LOCALE,
-    DefaultIcon = DEFAULT_ICON,
+    InteractDistance = 2, --The distance at which players can interact with duty locations .
+    Radius = 0.5, -- The radius of the duty location zones. 
+    Locale = "en", -- The default locale for translations.
+    DefaultIcon = 'fa-solid fa-business-time', --https://fontawesome.com/ - The default icon to use for duty menu items.
 
     -- Duty Command Settings: Settings for the /duty command, including whether to use it, the command name, and whether it should be admin-only.
     DutyCommandSettings = {
-        UseDutyCommand = true,
-        DutyCommandName = 'duty',
-        AdminOnly = true
+        UseDutyCommand = true, -- enable the duty command
+        DutyCommandName = 'duty', -- /duty
+        AdminOnly = true -- Can be used by admin only or any one with a job in Config.jobs
     },
 
     -- Jobs: Configuration for each job, including the icon, image, and duty location coordinates.
@@ -27,11 +20,7 @@ Config = {
                 -- Mission Row Police Station
                 vector3(441.0725402832,-980.10986328125,30.678344726562),
                 -- Vinewood Police Station
-                vector3(642.6, 1.8, 81.8),
-                -- Davis Sheriff's Station
-                vector3(365.8, -1609.3, 29.3),
-                -- Sandy Shores Sheriff's Office
-                vector3(1855.4, 3689.5, 34.2)
+                vector3(642.6, 1.8, 81.8)
             }
         },
 
