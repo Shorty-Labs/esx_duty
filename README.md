@@ -155,6 +155,7 @@ The Slabs-Duty resource provides the following commands:
 * Description: Check daily times for a specific date.
   
 * Parameters:
+  - jobName: The name of the job to check daily times for.
   - date: The date in the format DD/MM/YY.
     
 * Permissions: Admins and job supervisors (boss) can check daily times for any job, while regular players can only check their own daily times.
