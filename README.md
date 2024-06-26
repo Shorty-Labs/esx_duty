@@ -188,7 +188,7 @@ The Slabs-Duty resource provides the following commands:
 * Description: Check the duty status (on-duty or off-duty) of a player.
   
 * Parameters:
-  -playerId (optional): The server ID of the player to check the duty status for. If not provided, it will check the duty status of the player executing the command.
+  - playerId (optional): The server ID of the player to check the duty status for. If not provided, it will check the duty status of the player executing the command.
   
 * Permissions: Admins can use this command to check the duty status of any player.
 
