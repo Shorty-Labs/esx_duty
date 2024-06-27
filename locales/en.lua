@@ -69,6 +69,7 @@ Locales["en"] = {
 
     -- Command Descriptions
     ["logjobtimes_usage"] = "~r~Usage:~s~ /logJobTimes ~g~[jobName] [weekStartDate ~s~(DD/MM/YY)]",
+    ["job_count"] = "There are %d %s on duty",
     ["job_count_desc"] = "Shows how many players are online for Specific Job",
     ["log_job_times_desc"] = "Sends a log to discord with all players daily and weekly duty times.",
     ["check_duty_status_desc"] = "Check the duty status of a player",
