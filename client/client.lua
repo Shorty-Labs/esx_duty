@@ -116,6 +116,8 @@
         updateDutyMenu()
     end)
 
+-- Only for debugging
+--[[
     AddEventHandler('onClientResourceStart', function(resource)
         if resource == GetCurrentResourceName() then
             clearOldItems()
@@ -123,6 +125,7 @@
             TriggerServerEvent("sl_duty:addChatSuggestion_s")
         end
     end)
+]]--
 
     RegisterNetEvent('sl_duty:addChatSuggestion_c')
     AddEventHandler('sl_duty:addChatSuggestion_c', function(data)
