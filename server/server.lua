@@ -823,7 +823,7 @@
 
         if jobName and Config.Jobs[jobName] then
             local count = getJobCount(jobName)
-            local message = TranslateCap("job_count", jobName, count)
+            local message = TranslateCap("job_count", count, jobName)
             Config.sendNotification(message, 'info', xPlayer.source)
         else
             local errorMessage = TranslateCap("invalid_job_name")
